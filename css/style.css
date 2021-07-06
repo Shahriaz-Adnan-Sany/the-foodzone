@@ -2,3 +2,9 @@ body {
     margin: none;
     font-family: 'Open Sans', sans-serif;
 }
+.flexbox {
+    display: flex;
+}
+.flex-50 {
+    width: 50%;
+}
