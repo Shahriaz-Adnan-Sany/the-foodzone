@@ -46,3 +46,8 @@ a {
     width: 100%;
     padding: 10px 20px;
 }
+.welcome-img {
+    height: 200px;
+    width: auto;
+    background-color: salmon;
+}
