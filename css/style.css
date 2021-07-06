@@ -51,3 +51,6 @@ a {
     width: auto;
     background-color: salmon;
 }
+.welcome-img img {
+    height: 100%;
+}
