@@ -9,6 +9,9 @@ h1 {
     margin: none;
     padding: none;
 }
+.heading-color {
+    color: orange;
+}
 p {
     font-size: 14px;
 }
@@ -24,6 +27,10 @@ a {
 }
 .flex-50 {
     width: 50%;
+}
+.img-style {
+    height: 80px;
+    width: 100px;
 }
 .btn1 {
     padding: 10px 20px;
