@@ -47,7 +47,7 @@ a {
     padding: 10px 20px;
 }
 .welcome-img {
-    height: 200px;
-    width: 100px;
+    height: 400px;
+    width: auto;
     background-color: salmon;
 }
