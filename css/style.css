@@ -2,6 +2,14 @@ body {
     margin: none;
     font-family: 'Open Sans', sans-serif;
 }
+h1 {
+    font-weight: 900;
+    margin: none;
+    padding: none;
+}
+p {
+    
+}
 .flexbox {
     display: flex;
 }
