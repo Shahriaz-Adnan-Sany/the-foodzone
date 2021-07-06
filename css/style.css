@@ -48,9 +48,6 @@ a {
 }
 .welcome-img {
     height: 200px;
-    width: auto;
+    width: 100px;
     background-color: salmon;
-}
-.welcome-img img {
-    height: 100%;
 }
