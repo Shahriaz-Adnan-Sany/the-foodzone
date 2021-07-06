@@ -5,12 +5,12 @@ body {
 }
 h1 {
     font-weight: 900;
-    font-size: 26px;
-    margin: none;
-    padding: none;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
 }
 .heading-color {
-    color: orange;
+    color: whitesmoke;
 }
 p {
     font-size: 14px;
@@ -22,32 +22,111 @@ a {
     list-style: none;
     cursor: pointer;
 }
+.container {
+    width: 96%;
+    height: auto;
+}
 .flexbox {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .flex-50 {
     width: 50%;
 }
 .img-style {
-    height: 80px;
+    height: 100px;
     width: 100px;
+    display: inline;
+    margin-left: 100px;
+    position: center;
+}
+.heading-style {
+    font-size: 30px;
+    font-weight: 800;
+}
+.pad-20 {
+    padding: 20px;
+}
+.pad-r-100 {
+    padding-right: 100px;
+}
+.pad-ex {
+    padding: 20px 80px 20px 10px;
+}
+.pad-tb-20 {
+    padding: 20px 0;
+}
+.pad-t-20 {
+    padding-top: 20px;
+}
+.pad-lr-20 {
+    padding: 0 20px;
+}
+.mar-b-30 {
+    margin-bottom: 30px;
+}
+.mar-tb-30 {
+    margin: 30px 0;
+}
+.mar-left-25 {
+    margin-left: 25px;
 }
 .btn1 {
     padding: 10px 20px;
     text-decoration: none;
-    background-image: linear-gradient(salmon orange);
+    background-color: salmon;
+    color: white;
+    border-radius: 10px;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
 }
-.header {
-    background-image: linear-gradient(aqua navy);
+#Search {
+    width: 90%;
+    border: 5px solid salmon;
+    background-color: aqua;
+    border-radius: 8px;
+    font-size: 14px;
+}
+.header-item {
+    padding-top: 10px;
+}
+.header-style {
+    background-color: aqua;
     height: 100px;
     width: 100%;
-    padding: 10px 20px;
+    padding-top: 30px;
+}
+.welcome {
+    background-image: linear-gradient(to bottom right, aqua, salmon);
+    height: 400px;
+    width: 100%;
+    padding: 30px 0;
 }
 .welcome-img {
+    height: 380px;
+    width: 350px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.about {
+    background-image: linear-gradient(to bottom right, salmon, aqua);
     height: 400px;
-    width: auto;
-    background-color: salmon;
+    width: 100%;
+    padding: 30px 0;
+}
+.about-img {
+    height: 100%;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 20px; 
+    border-left: 5px solid aquamarine;
+}
+.about-pera {
+    margin-top: 50px;
+    font-size: 16px;
+}
+.contact-btn {
+    margin-top: 90px;
 }
