@@ -1,14 +1,23 @@
 body {
     margin: none;
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 h1 {
     font-weight: 900;
+    font-size: 26px;
     margin: none;
     padding: none;
 }
 p {
-    
+    font-size: 14px;
+}
+img {
+    width: 100%;
+}
+a {
+    list-style: none;
+    cursor: pointer;
 }
 .flexbox {
     display: flex;
@@ -21,6 +30,7 @@ p {
     text-decoration: none;
     background-image: linear-gradient(aqua navy);
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
+    text-transform: capitalize;
 }
